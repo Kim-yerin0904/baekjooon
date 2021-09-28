@@ -18,3 +18,14 @@ for i in A:
 
 P_new = [str(a) for a in P]
 print(" ".join(P_new))
+
+# 엄청 간단한 코드 발견
+# 숫자 위치를 찾으면 그 숫자를 -1로 바꿔서 중복이 있더라도 안걸림
+N = int(input())
+A = list(map(int, input().split()))
+B = sorted(A)
+
+for i in range(N):
+    ind = B.index(A[i])
+    print(ind, end=" ")
+    B[ind] = -1
