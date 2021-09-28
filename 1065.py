@@ -22,3 +22,5 @@ def han(i):
 
 i = int(input())
 print(han(i))
+
+# 쬐끔 더 빠른 코드는 수를 str처리해서 리스트로 바로 비교
