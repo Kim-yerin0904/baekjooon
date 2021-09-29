@@ -26,3 +26,5 @@ set_single = set_need * min(set_price) + single_need *min(single_price)
 
 # 위의 세가지 경우 중 가장 작은거 출력
 print(min(only_set,only_single,set_single))
+
+# 세가지 경우가 아닌 그냥 6개를 살때 세트가 싼지 개별이 싼지 비교해서 사기! -> 이게 더 빨라!
