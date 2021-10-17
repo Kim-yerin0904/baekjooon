@@ -1,7 +1,8 @@
-T = int(input())
+import sys
+T = int(sys.stdin.readline())
 P =[]
 for i in range(T):
-    P.append(int(input()))
+    P.append(int(sys.stdin.readline()))
 dp = list(0 for _ in range(101))
 dp[1]=1
 dp[2]=1
